@@ -75,3 +75,8 @@ body {
   text-decoration: none;
   color: rgba(11, 165, 114, 60%);
 }
+
+.recover-password a:hover {
+  text-decoration: none;
+  color: rgb(11, 165, 114);
+}
