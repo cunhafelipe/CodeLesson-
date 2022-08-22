@@ -97,3 +97,49 @@ img {
 .conteudo-texto a:hover {
   color: rgb(8, 103, 72);
 }
+
+.transfer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(78, 188, 66);
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 70px 60px;
+  justify-content: space-between;
+}
+
+.texto-primario {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.transfer-texto h3 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  gap: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.avatar-texto .texto1 {
+  color: #141414;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.avatar-texto .texto2 {
+  color: #141414;
+  margin-left: -15px;
+}
