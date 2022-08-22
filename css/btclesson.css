@@ -143,3 +143,78 @@ img {
   color: #141414;
   margin-left: -15px;
 }
+
+.alpha {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 70px 60px;
+  background-color: #d7d7d7;
+  border-radius: 10px;
+}
+
+.alpha-texto {
+  align-self: center;
+}
+
+.alpha-texto .texto1 {
+  font-size: 0.95rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.alpha-texto h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.alpha-texto .texto2 {
+  margin-bottom: 30px;
+}
+
+.alpha-texto a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgb(11, 165, 114);
+}
+
+.alpha-texto a:hover {
+  color: rgb(8, 103, 72);
+}
+
+.lesson-texto1 {
+  font-size: 0.95rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lesson-texto2 {
+  font-size: 0.95rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lesson-alpha h2 {
+  font-size: 2rem;
+}
+
+.lesson-alpha a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgb(11, 165, 114);
+}
+
+.lesson-alpha a:hover {
+  color: rgb(8, 103, 72);
+}
+
+.lesson-alpha {
+  background: #141414;
+  padding: 60px 30px;
+  color: #fff;
+  border-radius: 5px;
+}
