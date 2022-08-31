@@ -8,3 +8,9 @@ for (const agenciasSemi of agenciaSemi) {
     `A marca disponível no momento é: ${agenciasSemi.marca}, e seu modelo é: ${agenciasSemi.modelo}`
   );
 }
+
+agenciaSemi.map((data) => {
+  console.log(
+    `A marca disponível no momento é: ${data.marca}, e seu modelo é: ${data.modelo}`
+  );
+});
