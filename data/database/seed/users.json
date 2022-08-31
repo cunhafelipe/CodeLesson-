@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rafael Torreson",
+    "email": "rafael@torreson.com.br",
+    "role": "admin"
+  },
+  {
+    "name": "Felipe Cunha",
+    "email": "felipe@cunha.com.br",
+    "role": "admin"
+  },
+  {
+    "name": "Elizeu Gomes",
+    "email": "elizeu@gomes.com.br",
+    "role": "user"
+  },
+  {
+    "name": "Rafael Torreson",
+    "email": "rafael@torreson.com.br",
+    "role": "admin"
+  },
+  {
+    "name": "Felipe Cunha",
+    "email": "felipe@cunha.com.br",
+    "role": "admin"
+  },
+  {
+    "name": "Elizeu Gomes",
+    "email": "elizeu@gomes.com.br",
+    "role": "user"
+  }
+]
