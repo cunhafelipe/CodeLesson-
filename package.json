@@ -1,0 +1,27 @@
+{
+  "name": "code-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/start.js",
+  "scripts": {
+    "start": "nodemon server/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunhafelipe/CodeLesson-.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunhafelipe/CodeLesson-/issues"
+  },
+  "homepage": "https://github.com/cunhafelipe/CodeLesson-#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
