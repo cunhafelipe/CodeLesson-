@@ -1,57 +1,23 @@
-const candidatos = [
-  {
-    nome: 'Felipe',
-    idade: Number('21'),
-    dataNacimento: new Date(),
-    status: Boolean(true),
-    skills: [
-      {
-        html: true,
-        css: true,
-        javascript: false,
-        database: false,
-      },
-    ],
-  },
-  {
-    nome: 'Rafael',
-    idade: Number('23'),
-    dataNacimento: new Date(),
-    status: Boolean(false),
-    skills: [
-      {
-        javascript: true,
-        database: true,
-        rh: false,
-        cozinhar: false,
-      },
-    ],
-  },
-  {
-    nome: String('Karol'),
-    idade: Number('29'),
-    dataNacimento: new Date(),
-    status: Boolean(true),
-    skills: [
-      {
-        javascript: false,
-        database: false,
-        rh: false,
-        cozinhar: true,
-      },
-    ],
-  },
-];
+const express = require('express');
+const morgan = require('morgan');
+const app = express();
+const logger = require('morgan');
+const PORT = process.env.SERVER_PORT || 3000;
+const userRouter = require('./src/routes/users');
 
-const candidato = candidatos[1]
+app.use(logger('dev'));
+app.use(express.json());
+app.use(userRouter);
 
-console.log(`As habilidades do candidato ${candidato.nome} são : ` + JSON.stringify(candidato.skills));
-
-// [] = array || vetor
-// {} = object || JSON
-
-// type="text" = String
-// type="number" = Number
-// type="date" = Date
-// status = Booleano
-// any = any
+try {
+  try {
+    require('./src/database/config')();
+  } catch (error) {
+    console.error(error.message)
+  }
+  app.listen(PORT, () => {
+    console.log(`Server iniciou na url http://locahost:${PORT}`);
+  });
+} catch (error) {
+  console.error(error.message)
+}

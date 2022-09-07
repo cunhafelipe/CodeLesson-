@@ -16,5 +16,3 @@ function init() {
     console.error(error.message);
   }
 }
-
-init();
