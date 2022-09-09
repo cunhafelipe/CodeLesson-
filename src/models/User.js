@@ -26,6 +26,7 @@ const UserModel = new mongoose.Schema({
         type: Boolean,
         default: false,
     },
+    carteira: Object
 });
 
 // UserModel.pre('save', (next) => {
